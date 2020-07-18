@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/taco-react/static/css/main.ef50d4ab.chunk.css",
-    "main.js": "/taco-react/static/js/main.7d532014.chunk.js",
-    "main.js.map": "/taco-react/static/js/main.7d532014.chunk.js.map",
+    "main.js": "/taco-react/static/js/main.37344d63.chunk.js",
+    "main.js.map": "/taco-react/static/js/main.37344d63.chunk.js.map",
     "runtime-main.js": "/taco-react/static/js/runtime-main.3320e33d.js",
     "runtime-main.js.map": "/taco-react/static/js/runtime-main.3320e33d.js.map",
     "static/js/2.01605af9.chunk.js": "/taco-react/static/js/2.01605af9.chunk.js",
     "static/js/2.01605af9.chunk.js.map": "/taco-react/static/js/2.01605af9.chunk.js.map",
     "index.html": "/taco-react/index.html",
-    "precache-manifest.37126b08e618f64914555574650f3ea0.js": "/taco-react/precache-manifest.37126b08e618f64914555574650f3ea0.js",
+    "precache-manifest.db6eae74c110fbafc0c790e9d7435c28.js": "/taco-react/precache-manifest.db6eae74c110fbafc0c790e9d7435c28.js",
     "service-worker.js": "/taco-react/service-worker.js",
     "static/css/main.ef50d4ab.chunk.css.map": "/taco-react/static/css/main.ef50d4ab.chunk.css.map",
     "static/js/2.01605af9.chunk.js.LICENSE.txt": "/taco-react/static/js/2.01605af9.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3320e33d.js",
     "static/js/2.01605af9.chunk.js",
     "static/css/main.ef50d4ab.chunk.css",
-    "static/js/main.7d532014.chunk.js"
+    "static/js/main.37344d63.chunk.js"
   ]
 }
