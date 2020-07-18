@@ -8,7 +8,7 @@ export class RandomTaco extends Component {
         };
     }
     componentDidMount() {
-        const apiUrl = 'http://taco-randomizer.herokuapp.com/random/';
+        const apiUrl = 'https://taco-randomizer.herokuapp.com/random/';
         fetch(apiUrl)
             .then((response) => response.json())
             .then((data) => {
