@@ -1,4 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oswald&display=swap');
 .container {
-  border: 8px solid forestgreen;
-  background-color: honeydew;
+  border: 8px solid rgb(33, 106, 117);
+  background-color: rgb(247, 255, 247);
+  padding: 30px;
+  text-align: center;
+}
+
+.ingredient-label {
+  color: rgb(255, 107, 107);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+}
+
+.ingredient-text {
+  color: rgb(255, 230, 108);
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: rgb(77, 206, 197);
+  font-family: 'Caveat', cursive;
+}
+
+pre {
+  padding-left: 10%;
+  text-align: left;
+  white-space: pre-wrap;
+  /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
 }
