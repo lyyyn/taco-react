@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+const ReactMarkdown = require('react-markdown')
 
 export class RandomTaco extends Component {
     constructor(props) {
@@ -39,28 +40,23 @@ export class RandomTaco extends Component {
                     <div className="clear-fix">&nbsp;</div>
                     <div>
                         <span className="ingredient-label">Seasoning: </span> 
-                        <span className="ingredient-text">{this.state.taco.seasoning.name}</span>
-                        <pre>{this.state.taco.seasoning.recipe}</pre>
+                        <ReactMarkdown source={this.state.taco.seasoning.recipe} />
                     </div>
                     <div>
                         <span className="ingredient-label">Base Layer: </span> 
-                        <span className="ingredient-text">{this.state.taco.base_layer.name}</span>
-                        <pre>{this.state.taco.base_layer.recipe}</pre>
+                        <ReactMarkdown source={this.state.taco.base_layer.recipe} />
                     </div>
                     <div>
                         <span className="ingredient-label">Mixin: </span> 
-                        <span className="ingredient-text">{this.state.taco.mixin.name}</span>
-                        <pre>{this.state.taco.mixin.recipe}</pre>
+                        <ReactMarkdown source={this.state.taco.mixin.recipe} />
                     </div>
                     <div>
                         <span className="ingredient-label">Shell: </span> 
-                        <span className="ingredient-text">{this.state.taco.shell.name}</span>
-                        <pre>{this.state.taco.shell.recipe}</pre>
+                        <ReactMarkdown source={this.state.taco.shell.recipe} />
                     </div>
                     <div>
                         <span className="ingredient-label">Condiment: </span> 
-                        <span className="ingredient-text">{this.state.taco.condiment.name}</span>
-                        <pre>{this.state.taco.condiment.recipe}</pre>
+                        <ReactMarkdown source={this.state.taco.condiment.recipe} />
                     </div>
                 </div>
             )
